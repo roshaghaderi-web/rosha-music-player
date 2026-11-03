@@ -1,27 +1,19 @@
 # Rosha Music Player
 
-A modern music player built with Next.js.
+**If you have a lot of information to display on your site, why don't you use my accordion menu**
 
-## Features
+![viewfinal]([https://github.com/user-attachments/assets/28e077fb-da36-4ce1-aabf-37465392b356](https://github.com/user-attachments/assets/52d2871d-dff4-43f2-a67d-aa59c61c24fc))
+- [Demo Project](https://github.com/roshaghaderi-web/rosha-music-player.git)
 
-- Music playback and controls
-- Play, pause, next and previous
-- Search songs and artists
-- Like and save favorite songs
-- Repeat playback
-- Volume control
-- Responsive user interface
 
-## Technologies
+- Developed by rosha ghaderi
 
-- Next.js
-- React
-- JavaScript
-- Tailwind CSS
+- Created - 2026-07-3
 
-## Getting Started
+- Technologies Used - Html
 
-First, install dependencies:
+- Hooks Used : useState 
 
-```bash
-npm install
+- Role - Frontend
+
+- How to reach me : with my [instagram](https://www.instagram.com/rosha_ghaderi7?igsh=ZnhzdWNyemtpZ2Qz) and [linkedin](https://www.linkedin.com/in/rosha-ghaderi-3367aa391?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
