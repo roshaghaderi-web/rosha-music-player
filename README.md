@@ -3,7 +3,7 @@
 **If you have a lot of information to display on your site, why don't you use my accordion menu**
 
 ![viewfinal]([https://github.com/user-attachments/assets/28e077fb-da36-4ce1-aabf-37465392b356](https://github.com/user-attachments/assets/52d2871d-dff4-43f2-a67d-aa59c61c24fc))
-- [Demo Project](https://github.com/roshaghaderi-web/rosha-music-player.git)
+- [Demo Project](https://rosha-music-player1-dilecdoc0-rosha5.vercel.app/)
 
 
 - Developed by rosha ghaderi
