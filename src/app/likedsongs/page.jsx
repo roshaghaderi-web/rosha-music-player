@@ -51,11 +51,11 @@ export default function LikedSongs() {
   return (
     <main className="relative min-h-screen overflow-hidden bg-[#07131d] px-8 pb-32 pt-7 text-white">
 
-      {/* Ambient background */}
+   
       <div className="pointer-events-none absolute -right-40 -top-40 h-[550px] w-[550px] rounded-full bg-emerald-500/[0.09] blur-[140px]" />
       <div className="pointer-events-none absolute left-[30%] top-[320px] h-[300px] w-[500px] rounded-full bg-teal-500/[0.04] blur-[120px]" />
 
-      {/* Back */}
+   
       <button
         onClick={() => router.back()}
         className="group relative z-10 mb-8 flex items-center gap-2 rounded-full border border-white/[0.08] bg-white/[0.025] px-4 py-2.5 text-sm text-white/55 backdrop-blur-xl transition duration-300 hover:border-emerald-400/30 hover:bg-emerald-400/[0.06] hover:text-white"
@@ -65,15 +65,14 @@ export default function LikedSongs() {
       </button>
 
 
-      {/* Minimal Luxury Hero */}
       <section className="relative mb-10 overflow-hidden rounded-2xl border border-white/[0.07] bg-gradient-to-r from-[#0d211d] via-[#0b171b] to-[#081019] px-6 py-7 sm:px-8">
 
-        {/* Soft ambient light */}
+    
         <div className="pointer-events-none absolute -right-16 -top-24 h-56 w-56 rounded-full bg-emerald-400/[0.08] blur-[85px]" />
 
         <div className="relative flex items-center gap-5 sm:gap-7">
 
-          {/* Compact artwork */}
+
           <div className="group relative h-[100px] w-[100px] shrink-0 sm:h-[116px] sm:w-[116px]">
 
             <div className="absolute -inset-1 rounded-2xl bg-emerald-400/[0.10] blur-xl transition duration-500 group-hover:bg-emerald-400/20" />
@@ -92,7 +91,6 @@ export default function LikedSongs() {
             </div>
           </div>
 
-          {/* Typography */}
           <div className="relative min-w-0">
 
             <div className="mb-2 flex items-center gap-2">
@@ -134,8 +132,6 @@ export default function LikedSongs() {
           </div>
         </div>
 
-        {/* Table header */}
-
 
         <div className="flex flex-col gap-1">
 
@@ -146,7 +142,7 @@ export default function LikedSongs() {
               className="group relative grid grid-cols-[32px_minmax(0,1fr)_44px] items-center gap-4 overflow-hidden rounded-2xl border border-transparent px-4 py-3 transition-all duration-300 hover:border-white/[0.07] hover:bg-white/[0.035]"
             >
 
-              {/* Subtle hover accent */}
+            
               <div className="pointer-events-none absolute bottom-3 left-0 top-3 w-[2px] rounded-full bg-[#31e981] opacity-0 shadow-[0_0_12px_#31e981] transition-opacity duration-300 group-hover:opacity-100" />
 
               <span className="relative text-sm tabular-nums text-white/30 transition group-hover:text-[#8CFF80]">

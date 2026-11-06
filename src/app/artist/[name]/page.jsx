@@ -63,7 +63,6 @@ export default function ArtistPage() {
 return (
   <main className="relative min-h-screen overflow-hidden bg-[#050d14] px-6 pb-32 pt-7 text-white sm:px-10 lg:px-12">
 
-    {/* Ambient background */}
     <div className="pointer-events-none absolute inset-0 overflow-hidden">
       <div className="absolute -top-36 left-[15%] h-[430px] w-[430px] rounded-full bg-[#8CFF80]/[0.07] blur-[130px]" />
       <div className="absolute right-[-180px] top-[380px] h-[400px] w-[400px] rounded-full bg-emerald-500/[0.04] blur-[130px]" />
@@ -72,7 +71,6 @@ return (
 
     <div className="relative z-10 mx-auto max-w-6xl">
 
-      {/* Back button */}
       <button
         onClick={() => router.back()}
         className="group mb-8 flex items-center gap-2 rounded-full border border-white/[0.08] bg-white/[0.025] px-4 py-2.5 text-sm text-white/50 backdrop-blur-xl transition-all duration-300 hover:border-[#8CFF80]/25 hover:bg-white/[0.06] hover:text-white"
@@ -84,7 +82,6 @@ return (
         Back
       </button>
 
-{/* Artist hero */}
 <section className="relative mb-8 overflow-hidden rounded-[24px] border border-white/[0.08] bg-gradient-to-br from-[#14252b] via-[#0b1921] to-[#071018] p-5 sm:p-7">
 
   <div className="pointer-events-none absolute inset-0 bg-gradient-to-r from-[#8CFF80]/[0.05] via-transparent to-transparent" />
@@ -93,7 +90,6 @@ return (
 
   <div className="relative flex items-center gap-5 sm:gap-7">
 
-    {/* Artist cover */}
     
 <div className="group relative shrink-0">
   <div className="absolute -inset-3 rounded-3xl bg-[#8CFF80]/10 blur-xl transition-opacity duration-500 group-hover:bg-[#8CFF80]/15" />
@@ -119,7 +115,6 @@ return (
 </div>
 
 
-    {/* Artist information */}
     <div className="min-w-0 flex-1">
 
       <div className="mb-2 flex items-center gap-2">
@@ -153,7 +148,6 @@ return (
 </section>
 
 
-      {/* Track list heading */}
       <div className="mb-5 flex items-end justify-between px-1">
         <div>
           <p className="mb-2 text-[10px] tracking-[3px] text-[#8CFF80]/55">
@@ -170,7 +164,6 @@ return (
         </span>
       </div>
 
-      {/* Songs */}
       <div className="space-y-2">
         {artistSongs.map((song, index) => (
           <button

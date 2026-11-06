@@ -28,15 +28,12 @@ export default function SearchSongs({ onClose }) {
   return (
     <div className="fixed inset-0 z-[100]  flex items-start justify-center overflow-y-auto bg-[#02080c]/80 px-4 pb-8 pt-20 backdrop-blur-md sm:pt-28">
 
-      {/* Ambient glow */}
       <div className="pointer-events-none fixed left-1/2 top-20 h-72 w-72 -translate-x-1/2 rounded-full bg-[#31e981]/10 blur-[110px]" />
 
       <div className="relative h-[500px] w-full max-w-xl overflow-hidden rounded-[28px] border border-white/[0.12] bg-[#07131d]/95 shadow-[0_30px_100px_-20px_rgba(0,0,0,0.9),0_0_50px_rgba(49,233,129,0.06)]">
 
-        {/* Top neon line */}
         <div className="absolute left-[15%] top-0 h-px w-[70%] bg-gradient-to-r from-transparent via-[#31e981]/80 to-transparent" />
 
-        {/* Header */}
         <div className="relative  flex items-center justify-between px-6 pb-5 pt-7 sm:px-8">
 
           <div className="flex  items-center gap-4">
@@ -64,7 +61,6 @@ export default function SearchSongs({ onClose }) {
           </button>
         </div>
 
-        {/* Search input */}
         <div className="px-6 sm:px-8">
           <div className="group relative rounded-2xl p-px transition-all duration-300 focus-within:bg-gradient-to-r focus-within:from-[#31e981]/60 focus-within:via-[#31e981]/20 focus-within:to-transparent">
             <div className="flex items-center gap-3 rounded-2xl border border-white/[0.09] bg-[#0b1b26] px-4 py-4 transition-all duration-300 group-focus-within:border-transparent group-focus-within:bg-[#0a1b25] group-focus-within:shadow-[0_0_30px_rgba(49,233,129,0.07)]">
@@ -95,7 +91,7 @@ export default function SearchSongs({ onClose }) {
           </div>
         </div>
 
-        {/* Results heading */}
+   
         <div className="flex items-center justify-between px-6 pb-3 pt-7 sm:px-8">
           <p className="text-[11px] font-semibold uppercase tracking-[2px] text-white/40">
             {query.trim() ? 'Search results' : 'Discover'}
@@ -108,7 +104,7 @@ export default function SearchSongs({ onClose }) {
           )}
         </div>
 
-        {/* Songs */}
+    
         <div className="mx-3 mb-4 max-h-[360px] overflow-y-auto px-2 pb-2 sm:mx-5 sm:px-3">
 
           {query.trim() !== '' ? (
@@ -183,7 +179,6 @@ export default function SearchSongs({ onClose }) {
           )}
         </div>
 
-        {/* Footer */}
         <div className="flex items-center justify-between border-t border-white/[0.06] bg-white/[0.015] px-6 py-4 sm:px-8">
           <div className="flex items-center gap-2">
             <span className="h-1.5 w-1.5 rounded-full bg-[#31e981] shadow-[0_0_8px_rgba(49,233,129,0.8)]" />
